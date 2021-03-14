@@ -168,8 +168,8 @@ class TestCard(unittest.TestCase):
         c = d.cards[random.randint(0, 51)]
         d.replace_card(c)
         num_cards_after = len(d.cards)
-        self.assertEqual(num_cards_before, num_cards_before)
-        return num_cards_before, num_cards_before
+        self.assertEqual(num_cards_after, num_cards_before)
+        return num_cards_after, num_cards_before
 
 
 
